@@ -2,7 +2,7 @@ run "s3_bucket_test" {
   command = apply
 
   variables {
-    bucket_name = "my-test-bucket-${run_id}"
+    bucket_name = "my-test-bucket-titus"
   }
 
   assert {
